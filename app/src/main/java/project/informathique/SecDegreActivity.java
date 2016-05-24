@@ -22,8 +22,8 @@ public class SecDegreActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sec_degre);
-        Button myButton = (Button) findViewById(R.id.buttonCalc);
-        myButton.setOnClickListener(new View.OnClickListener()
+        Button boutoncalcul = (Button) findViewById(R.id.buttonCalc);
+        boutoncalcul.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
