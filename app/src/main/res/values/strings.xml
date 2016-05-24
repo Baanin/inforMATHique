@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Informathique</string>
+
+    <string name="title_activity_sec_degre">SecDegreActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_ters_degre">TersDegreActivity</string>
+</resources>

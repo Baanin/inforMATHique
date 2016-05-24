@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_eb1649cce50bbbfa3da1b4f5fe5dcebddd9f37e5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_d7ec38ce032f8cd2167fd4860e130e02d510dc86\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="22965c29f64149ef227f87c9dcf4d1691ce433b0">
+        <dex dex="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_95185f1af6322537cbf4b1a5a765655a52bcd665\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_3d446e50f5040969934794968d92e41e5fc0b437\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\benca\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_4e0098e184dc315c390ac501c9a87481078bc275\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dd85e5d9582a60ae644871842b9b4988e7aa2f33">
+        <dex dex="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1c4aa2ae24d208eef8ab912e5741835e91ca9f6b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_7f7a77e58f449bd2e0d3716bbd98be799e4dca8d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_a91e2469418df72ebd567a4a7dc945866b4a7485\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_f8a3915df9e400c4b55f178381c9bce79d95e0c6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_a65bcc58518b6a83fd1fcea17aea1073355f484f\classes.dex" />
+    </item>
+
+</items>
