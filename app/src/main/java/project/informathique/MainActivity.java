@@ -14,13 +14,23 @@ public class MainActivity extends Activity {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button myButton = (Button) findViewById(R.id.EquSeqDegrebutton);
-        myButton.setOnClickListener(new View.OnClickListener()
+        Button equations = (Button) findViewById(R.id.Equbutton);
+        equations.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent (MainActivity.this, SecDegreActivity.class);
+                Intent intent = new Intent (MainActivity.this, Equations.class);
+                startActivity(intent);
+            }
+        });
+        Button matrices = (Button) findViewById(R.id.matricesbutton);
+        matrices.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent (MainActivity.this, matrices.class);
                 startActivity(intent);
             }
         });
