@@ -1,18 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\benca\\Downloads\\drive-download-20160524T072945Z\\Informathique\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\benca\\Downloads\\drive-download-20160524T072945Z\\Informathique\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\benca\\Downloads\\drive-download-20160524T072945Z\\Informathique\\Informathique\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\benca\\Downloads\\drive-download-20160524T072945Z\\Informathique\\Informathique\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\benca\\Downloads\\Informathique\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\benca\\Downloads\\Informathique\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\benca\\Documents\\GitHub\\informathique\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\benca\\Documents\\GitHub\\informathique\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/Users/Louis/informathique/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/Users/Louis/informathique/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]
