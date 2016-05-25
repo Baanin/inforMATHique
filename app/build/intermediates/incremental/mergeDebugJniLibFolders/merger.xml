@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\benca\Documents\GitHub\informathique\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\benca\Documents\GitHub\informathique\app\src\debug\jniLibs"/></dataSet></merger>

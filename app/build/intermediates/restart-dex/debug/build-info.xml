@@ -4,28 +4,28 @@
     api-level="21"
     density="xxxhdpi"
     format="7"
-    timestamp="418451039982707" >
+    timestamp="424373865382231" >
 
     <task
         name="javac"
-        duration="582" />
+        duration="365" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="224" />
+        duration="232" />
     <task
         name="verifier"
-        duration="116" />
+        duration="27" />
 
     <artifact
-        location="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\outputs\apk\app-debug.apk"
+        location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="418451039982707" >
+    <build timestamp="424373865382231" >
         <artifact
-            location="C:\Users\benca\Downloads\drive-download-20160524T072945Z\Informathique\Informathique\app\build\outputs\apk\app-debug.apk"
+            location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 

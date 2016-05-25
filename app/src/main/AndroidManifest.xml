@@ -16,6 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecDegreActivity" />
+        <activity android:name=".Equations" />
+        <activity android:name=".matrices" />
+        <activity android:name=".degrestrois"></activity>
     </application>
 
 </manifest>

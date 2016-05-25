@@ -1,0 +1,17 @@
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$layout$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\R$mipmap$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\R$styleable$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\R$string$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\R$id$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\MainActivity$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\matrices$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\design\R$id$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\SecDegreActivity$1$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\design\R$layout$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$id$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\R$layout$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\R$style$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\R$integer$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\SecDegreActivity$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\Equations$override.class
