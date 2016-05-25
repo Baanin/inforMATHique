@@ -22,9 +22,7 @@
             </intent-filter>
         </activity>
         <activity android:name="project.informathique.SecDegreActivity" />
-        <activity android:name="project.informathique.Equations" />
-        <activity android:name="project.informathique.matrices" />
-        <activity android:name="project.informathique.degrestrois" />
+        <activity android:name="project.informathique.Main2Activity" />
     </application>
 
 </manifest>
