@@ -4,29 +4,49 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="1464162875873117000" >
+    timestamp="1464351719984907000"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="6718" />
+        duration="67" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="594" />
     <task
         name="instant-run-transform"
-        duration="1664" />
+        duration="12" />
     <task
         name="verifier"
-        duration="106" />
+        duration="0" />
 
     <artifact
-        location="/Users/Louis/informathique/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/Louis/informathique/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="1464162875873117000" >
+    <build timestamp="1464344016658714000" >
         <artifact
             location="/Users/Louis/informathique/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="1464351203960716000" >
+        <artifact
+            location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="1464351690441181000"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Louis/informathique/app/build/intermediates/builds/debug/1464351690441181000/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1464351719984907000"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Louis/informathique/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
