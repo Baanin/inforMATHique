@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="f18ffcf02432e78dd8a00ae941285ffb847b36ba">
-        <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_07a954359fb5f3954ae38f35fe90b0eae616bbbf\classes.dex" />
-    </item>
-
-</items>
+<items version="2" />
