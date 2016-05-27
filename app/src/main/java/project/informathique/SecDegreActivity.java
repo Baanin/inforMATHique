@@ -57,7 +57,8 @@ public class SecDegreActivity extends Activity {
 
                 if(txta.matches("") || txtb.matches("") || txtc.matches("")){
                     Context context = getApplicationContext();
-                    CharSequence text = "Veuillez saisir une valeur pour a !";
+
+                    CharSequence text = "Une ou plusieurs valeurs n'ont pas été saisies !";
                     int duration = Toast.LENGTH_SHORT;
 
                     Toast.makeText(context, text, duration).show();
