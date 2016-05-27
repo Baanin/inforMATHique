@@ -26,6 +26,7 @@
         <activity android:name="project.informathique.Equations" />
         <activity android:name="project.informathique.matrices" />
         <activity android:name="project.informathique.degrestrois" />
+        <activity android:name="project.informathique.Statistiques" />
     </application>
 
 </manifest>

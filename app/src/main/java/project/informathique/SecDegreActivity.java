@@ -103,7 +103,7 @@ public class SecDegreActivity extends Activity {
                         x2.setText("x2 = " + valx2);
                     }
                 }
-                }
+            }
 
 
         });

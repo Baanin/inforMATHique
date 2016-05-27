@@ -18,7 +18,8 @@
         <activity android:name=".SecDegreActivity" />
         <activity android:name=".Equations" />
         <activity android:name=".matrices" />
-        <activity android:name=".degrestrois"></activity>
+        <activity android:name=".degrestrois" />
+        <activity android:name=".Statistiques"></activity>
     </application>
 
 </manifest>

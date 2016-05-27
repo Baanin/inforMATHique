@@ -14,6 +14,7 @@ public class MainActivity extends Activity {
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Button equations = (Button) findViewById(R.id.Equbutton);
         equations.setOnClickListener(new View.OnClickListener()
         {
@@ -31,6 +32,17 @@ public class MainActivity extends Activity {
             public void onClick(View v)
             {
                 Intent intent = new Intent (MainActivity.this, matrices.class);
+                startActivity(intent);
+            }
+        });
+
+        Button statistiques = (Button) findViewById(R.id.Statistiquesbutton);
+        statistiques.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent (MainActivity.this, Statistiques.class);
                 startActivity(intent);
             }
         });

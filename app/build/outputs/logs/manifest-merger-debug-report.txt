@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:2:1-25:12
 	xmlns:android
 		ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:2:11-69
 	package
@@ -14,7 +14,7 @@ ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:2:1-24:12
 		INJECTED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:5:5-22:19
+ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-v4:23.3.0] /Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
@@ -70,9 +70,13 @@ ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:20:9-46
 	android:name
 		ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:20:19-43
 activity#project.informathique.degrestrois
-ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:21:9-58
+ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:21:9-49
 	android:name
 		ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:21:19-46
+activity#project.informathique.Statistiques
+ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:22:9-59
+	android:name
+		ADDED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml:22:19-47
 uses-sdk
 INJECTED from /Users/Louis/informathique/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:21:5-23:78
