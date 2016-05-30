@@ -4,55 +4,52 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="1464360860660887000"
-    verifier="R_CLASS_CHANGE" >
+    timestamp="449967364265656"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="166" />
+        duration="134" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="312" />
     <task
         name="instant-run-transform"
-        duration="22" />
+        duration="25" />
     <task
         name="verifier"
-        duration="14" />
+        duration="2" />
 
     <artifact
-        location="/Users/Louis/informathique/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-        type="DEX" />
-    <artifact
-        location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-        type="DEX" />
+        location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="1464360444462768000" >
+    <build timestamp="449369596466019" >
         <artifact
-            location="/Users/Louis/informathique/app/build/outputs/apk/app-debug.apk"
+            location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-        timestamp="1464360860660887000"
-        verifier="R_CLASS_CHANGE" >
+    <build timestamp="449880519293614" >
         <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/res/resources-debug.ap_"
+            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
         <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="449906979177511"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
+            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\449906979177511\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="449967364265656"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
+            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
