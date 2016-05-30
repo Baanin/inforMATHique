@@ -1,0 +1,3 @@
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\matrices$override.class
+CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\project\informathique\matrices$1$override.class
