@@ -32,12 +32,12 @@
         "source": "C:\\Users\\benca\\Documents\\GitHub\\informathique\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\benca\\Documents\\GitHub\\informathique\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_degrestrois.xml",
-        "source": "C:\\Users\\benca\\Documents\\GitHub\\informathique\\app\\src\\main\\res\\layout\\activity_degrestrois.xml"
-    },
-    {
         "merged": "C:\\Users\\benca\\Documents\\GitHub\\informathique\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\benca\\Documents\\GitHub\\informathique\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.3.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\benca\\Documents\\GitHub\\informathique\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_degrestrois.xml",
+        "source": "C:\\Users\\benca\\Documents\\GitHub\\informathique\\app\\src\\main\\res\\layout\\activity_degrestrois.xml"
     },
     {
         "merged": "C:\\Users\\benca\\Documents\\GitHub\\informathique\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",

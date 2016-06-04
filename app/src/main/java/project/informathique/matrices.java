@@ -24,7 +24,9 @@ public class matrices extends AppCompatActivity {
             {
                 sai_A[i][j] = (EditText)findViewById((R.id.EditText00)+k);
                 sai_A[i][j].setVisibility(View.VISIBLE);
+                sai_A[i][j].setText("0");
             }
         }
+        sai_A[0][0].setText("aze");
     }
 }
