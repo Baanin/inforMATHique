@@ -2332,8 +2332,18 @@ containing a value of this type.
         public static final int always=0x7f0c0033;
         public static final int beginning=0x7f0c0031;
         public static final int bottom=0x7f0c001d;
+<<<<<<< Updated upstream
         public static final int button=0x7f0c0096;
         public static final int buttonCalc=0x7f0c0089;
+=======
+<<<<<<< HEAD
+        public static final int AddListbutton =0x7f0c007e;
+        public static final int buttonCalc=0x7f0c0071;
+=======
+        public static final int button=0x7f0c0096;
+        public static final int buttonCalc=0x7f0c0089;
+>>>>>>> origin/master
+>>>>>>> Stashed changes
         public static final int buttonPanel=0x7f0c0044;
         public static final int cancel_action=0x7f0c00a2;
         public static final int center=0x7f0c001e;
@@ -2357,10 +2367,23 @@ containing a value of this type.
         public static final int design_menu_item_text=0x7f0c009e;
         public static final int design_navigation_view=0x7f0c009d;
         public static final int disableHome=0x7f0c000e;
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        public static final int edTxtValue =0x7f0c007d;
+        public static final int editTexta=0x7f0c0073;
+        public static final int editTextb=0x7f0c0075;
+        public static final int editTextc=0x7f0c0072;
+=======
+>>>>>>> Stashed changes
         public static final int editText=0x7f0c0095;
         public static final int editTexta=0x7f0c008b;
         public static final int editTextb=0x7f0c008d;
         public static final int editTextc=0x7f0c008a;
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
         public static final int edit_query=0x7f0c005c;
         public static final int end=0x7f0c0021;
         public static final int end_padder=0x7f0c00ad;
