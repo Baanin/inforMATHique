@@ -47,7 +47,7 @@
         jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="0477d8a28982bbb2a89e785470c61dfa91a1c6bf">
+        sha1="d7d5a1fcb0b2d9e3b928f8968f9301fdd7fe0a90">
         <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4a933fb221b82e05b1513837c8453b8470811ff6\classes.dex" />
     </item>
     <item
@@ -68,7 +68,7 @@
         jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="94eb5fa4d3b3ec1e13c18dcbf0474877ffdec242">
+        sha1="7c9a4597f811a007831ef0e5cbaeee320a8a55d5">
         <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_07a954359fb5f3954ae38f35fe90b0eae616bbbf\classes.dex" />
     </item>
 
