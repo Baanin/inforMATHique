@@ -2358,8 +2358,23 @@ containing a value of this type.
         public static final int always=0x7f0c0033;
         public static final int beginning=0x7f0c0031;
         public static final int bottom=0x7f0c001d;
+<<<<<<< HEAD
         public static final int btnCalculMoyenne=0x7f0c00b6;
         public static final int buttonCalc=0x7f0c00a7;
+=======
+<<<<<<< Updated upstream
+        public static final int button=0x7f0c0096;
+        public static final int buttonCalc=0x7f0c0089;
+=======
+<<<<<<< HEAD
+        public static final int AddListbutton =0x7f0c007e;
+        public static final int buttonCalc=0x7f0c0071;
+=======
+        public static final int button=0x7f0c0096;
+        public static final int buttonCalc=0x7f0c0089;
+>>>>>>> origin/master
+>>>>>>> Stashed changes
+>>>>>>> 09b92d1a45678c9f1dab0832a1443f87fbdf91ab
         public static final int buttonPanel=0x7f0c0044;
         public static final int cancel_action=0x7f0c00c1;
         public static final int center=0x7f0c001e;
@@ -2384,10 +2399,30 @@ containing a value of this type.
         public static final int design_menu_item_text=0x7f0c00bd;
         public static final int design_navigation_view=0x7f0c00bc;
         public static final int disableHome=0x7f0c000e;
+<<<<<<< HEAD
         public static final int edTxtValue=0x7f0c00b3;
         public static final int editTexta=0x7f0c00a9;
         public static final int editTextb=0x7f0c00ab;
         public static final int editTextc=0x7f0c00a8;
+=======
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        public static final int edTxtValue =0x7f0c007d;
+        public static final int editTexta=0x7f0c0073;
+        public static final int editTextb=0x7f0c0075;
+        public static final int editTextc=0x7f0c0072;
+=======
+>>>>>>> Stashed changes
+        public static final int editText=0x7f0c0095;
+        public static final int editTexta=0x7f0c008b;
+        public static final int editTextb=0x7f0c008d;
+        public static final int editTextc=0x7f0c008a;
+<<<<<<< Updated upstream
+=======
+>>>>>>> origin/master
+>>>>>>> Stashed changes
+>>>>>>> 09b92d1a45678c9f1dab0832a1443f87fbdf91ab
         public static final int edit_query=0x7f0c005c;
         public static final int end=0x7f0c0021;
         public static final int end_padder=0x7f0c00cc;

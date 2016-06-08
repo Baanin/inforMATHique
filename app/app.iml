@@ -119,6 +119,7 @@
     <orderEntry type="library" exported="" name="support-vector-drawable-23.3.0" level="project" />
     <orderEntry type="library" exported="" name="animated-vector-drawable-23.3.0" level="project" />
 <<<<<<< Updated upstream
+<<<<<<< HEAD
     <orderEntry type="library" exported="" name="design-23.3.0" level="project" />
 =======
 <<<<<<< HEAD
@@ -126,6 +127,15 @@
     <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
 =======
     <orderEntry type="library" exported="" name="design-23.3.0" level="project" />
+=======
+    <orderEntry type="library" exported="" name="design-23.3.0" level="project" />
+=======
+<<<<<<< HEAD
+    <orderEntry type="library" exported="" name="support-v4-23.3.0" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.3" level="project" />
+=======
+    <orderEntry type="library" exported="" name="design-23.3.0" level="project" />
+>>>>>>> 09b92d1a45678c9f1dab0832a1443f87fbdf91ab
 >>>>>>> origin/master
 >>>>>>> Stashed changes
     <orderEntry type="library" exported="" name="appcompat-v7-23.3.0" level="project" />
