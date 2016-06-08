@@ -4,58 +4,29 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="696424286466935"
-    verifier="COMPATIBLE" >
+    timestamp="696866104824953" >
 
     <task
         name="javac"
-        duration="191" />
+        duration="610" />
     <task
         name="instant-run-dex"
-        duration="329" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="9" />
+        duration="357" />
     <task
         name="verifier"
-        duration="1" />
+        duration="81" />
 
     <artifact
-        location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="696105227924582" >
+    <build timestamp="696866104824953" >
         <artifact
             location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="696161199339840"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\696161199339840\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="696269877992014"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\696269877992014\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="696364861268384"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\696364861268384\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="696424286466935"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
