@@ -19,10 +19,8 @@ public class Statistiques extends AppCompatActivity {
         setContentView(R.layout.activity_statistiques);
 
         Button boutonAddList = (Button) findViewById(R.id.AddListbutton);
-<<<<<<< HEAD
+
         assert boutonAddList != null;
-=======
->>>>>>> 09b92d1a45678c9f1dab0832a1443f87fbdf91ab
         boutonAddList.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -32,10 +30,9 @@ public class Statistiques extends AppCompatActivity {
                 EditText value = (EditText) findViewById(R.id.edTxtValue);
 
                 //conversion en string
-<<<<<<< HEAD
+
                 assert value != null;
-=======
->>>>>>> 09b92d1a45678c9f1dab0832a1443f87fbdf91ab
+
                 String txtvalue = value.getText().toString();
 
                 if(txtvalue.matches("")){
@@ -50,17 +47,18 @@ public class Statistiques extends AppCompatActivity {
                 else
                 {
                     mListView = (ListView) findViewById(R.id.listView);
-<<<<<<< HEAD
+
                     //List<int> nombre = AjouterNombres();
 
                     //NombresAdapter adapter = new NombresAdapter(MainActivity.this, int);
                     //mListView.setAdapter(adapter);
-=======
-                    List<int> nombre = AjouterNombres();
+
+                   /* List<int> nombre = AjouterNombres();
 
                     NombresAdapter adapter = new NombresAdapter(MainActivity.this, int);
                     mListView.setAdapter(adapter);
->>>>>>> 09b92d1a45678c9f1dab0832a1443f87fbdf91ab
+                    */
+
                 }
             }
         });

@@ -4,29 +4,54 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="696866104824953" >
+    timestamp="783564839681005"
+    verifier="CLASS_ADDED" >
 
     <task
         name="javac"
-        duration="610" />
+        duration="219" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="357" />
+        duration="17" />
     <task
         name="verifier"
-        duration="81" />
+        duration="2" />
 
     <artifact
-        location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+        type="DEX" />
 
-    <build timestamp="696866104824953" >
+    <build timestamp="780923152558425" >
         <artifact
             location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="783054011574139"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="783465783266106"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="783564839681005"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

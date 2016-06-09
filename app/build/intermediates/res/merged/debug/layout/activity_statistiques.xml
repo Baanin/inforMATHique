@@ -47,11 +47,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:choiceMode="none" />
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> 09b92d1a45678c9f1dab0832a1443f87fbdf91ab
 
     <Button
         android:layout_width="wrap_content"
@@ -61,8 +56,4 @@
         android:layout_below="@+id/listView"
         android:layout_alignRight="@+id/listView"
         android:layout_alignEnd="@+id/listView" />
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> 09b92d1a45678c9f1dab0832a1443f87fbdf91ab
 </RelativeLayout>
