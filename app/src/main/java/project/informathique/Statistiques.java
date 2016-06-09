@@ -23,6 +23,7 @@ public class Statistiques extends Activity {
     private EditText editTxt;
     private int nombres;
     private String[] items = new String []{""};
+    ListView mListView;
 
 
     @Override
@@ -68,7 +69,7 @@ public class Statistiques extends Activity {
                 }
                 else
                 {
-<<<<<<< HEAD
+
                     /*ArrayAdapter myAdapt= (ArrayAdapter)mListView.getAdapter();
                     myAdapt.notifyDataSetChanged();
                     myAdapt.add(txtvalue);*/
@@ -76,9 +77,9 @@ public class Statistiques extends Activity {
                     //String newData = new String(txtValue);
 
                     //mListView = (ListView) findViewById(R.id.listView);
-=======
+
                     mListView = (ListView) findViewById(R.id.listView);
->>>>>>> origin/master
+
 
                     //List<int> nombre = AjouterNombres();
 
