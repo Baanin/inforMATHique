@@ -8,3 +8,9 @@
 .gradle/2.10/taskArtifacts/fileHashes.bin
 
 .gradle/2.10/taskArtifacts/taskArtifacts.bin
+<<<<<<< HEAD
+.idea/workspace.xml
+app/build/generated/source/r/debug/project/informathique/R.java
+.idea/workspace.xml
+=======
+>>>>>>> 09b92d1a45678c9f1dab0832a1443f87fbdf91ab

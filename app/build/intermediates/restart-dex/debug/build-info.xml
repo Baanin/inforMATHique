@@ -4,78 +4,36 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="392996776416540"
+    timestamp="1465477169983401000"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="90" />
+        duration="335" />
     <task
         name="instant-run-dex"
-        duration="285" />
+        duration="477" />
     <task
         name="instant-run-transform"
-        duration="18" />
+        duration="25" />
     <task
         name="verifier"
-        duration="2" />
+        duration="9" />
 
     <artifact
-        location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\reload-dex\debug\classes.dex"
+        location="/Users/Louis/informathique/app/build/intermediates/reload-dex/debug/classes.dex"
         type="RELOAD_DEX" />
 
-    <build timestamp="392627060132811" >
+    <build timestamp="1465477040723264000" >
         <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
+            location="/Users/Louis/informathique/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="392685756331352"
+        timestamp="1465477169983401000"
         verifier="COMPATIBLE" >
         <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\392685756331352\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="392726660660775"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\392726660660775\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="392768396371175"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\392768396371175\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="392821040642095"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\392821040642095\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="392938638657100"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\392938638657100\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="392962885905717"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\392962885905717\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="392996776416540"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\reload-dex\debug\classes.dex"
+            location="/Users/Louis/informathique/app/build/intermediates/reload-dex/debug/classes.dex"
             type="RELOAD_DEX" />
     </build>
 

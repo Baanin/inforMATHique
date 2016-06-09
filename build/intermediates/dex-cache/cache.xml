@@ -2,74 +2,74 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
-        <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.3.0_04c5c25499d368f224a7b3175b11697875e219db\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_369f5c2f4fd0502e9940a6183525032b4cf27c6f\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jar="/Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_ad681e9d9928cbcb14daea1c2631b9bf34fec06a\classes.dex" />
+        <dex dex="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_1f77af0e082b6a2dbdf7bce5b3b88780e391ae73/classes.dex" />
     </item>
     <item
-        jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jar="/Users/Louis/informathique/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e6ed3014d59f54b8726f60c856fbe8dd9f32d2d8">
+        <dex dex="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d9107e3b0e8463c1aaa843a2185f3c068dbbbe80/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_76bf5a4373b49916883e7dfafc0a104debd318d9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_6d946e251b6c4f713214660d222659eec6cb61be\classes.dex" />
+        <dex dex="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_05ba3f6b27112a3f8d6ee96b4289d7226774fc01/classes.dex" />
     </item>
     <item
-        jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="debf30ce0a7560396b6235edef77e447006454c2">
-        <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.3.0_818c456d89d1f1dd0b5d53905c6a7f53e992a4fd\classes.dex" />
-    </item>
-    <item
-        jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jar="/Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_cb899552956844045d1ffe2baef2e278fd5105ee\classes.dex" />
+        <dex dex="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_8faede4b031297bf0650139505f9f4757956a2de/classes.dex" />
     </item>
     <item
-        jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/Louis/informathique/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="0477d8a28982bbb2a89e785470c61dfa91a1c6bf">
-        <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4a933fb221b82e05b1513837c8453b8470811ff6\classes.dex" />
+        sha1="a7aac492ee93755540e6f1496571917e87cdd6f4">
+        <dex dex="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1ffb14f3f572e2aefbe3374c637e177763482266/classes.dex" />
     </item>
     <item
-        jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jar="/Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_cedc0a95d9e0773621df7aae404f46e8bc14a62d\classes.dex" />
+        <dex dex="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_48190a2bd9f692ddcfd6e1f0d783cb3fcb5ce4fe/classes.dex" />
     </item>
     <item
-        jar="C:\Users\benca\AppData\Local\Android2\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jar="/Users/Louis/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
         jumboMode="true"
         revision="23.0.3"
         sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_66334c6488abed930e20665e05a373b6e2578640\classes.dex" />
+        <dex dex="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_6408ac00d73635efd0932fe9fdede673ffc114ae/classes.dex" />
     </item>
     <item
-        jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="94eb5fa4d3b3ec1e13c18dcbf0474877ffdec242">
-        <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_07a954359fb5f3954ae38f35fe90b0eae616bbbf\classes.dex" />
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_42fa2d576ea27a6c22c32b155f818278126ffab6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_40b8fabb6816bcd7ae97e66bdd42af37ea4d0244/classes.dex" />
     </item>
 
 </items>

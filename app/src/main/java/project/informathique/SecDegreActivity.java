@@ -66,7 +66,7 @@ public class SecDegreActivity extends Activity {
                 }
                 else
                 {
-                    //Conversion en int
+                    //Conversion en double
                     vala = Double.parseDouble(txta);
                     valb = Double.parseDouble(txtb);
                     valc = Double.parseDouble(txtc);
