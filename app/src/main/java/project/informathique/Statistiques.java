@@ -15,15 +15,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
 public class Statistiques extends Activity {
 
     private EditText editTxt;
-    private int nombres;
     private String[] items = new String []{""};
     ListView mListView;
+    String[] nombres;
+    ArrayList<String> arrayList;
+    ArrayAdapter<String> adapter;
 
 
     @Override
@@ -31,19 +34,14 @@ public class Statistiques extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_statistiques);
 
-        /*ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, items);
-        ListView mListView = (ListView) findViewById(R.id.listView);
-        mListView.setAdapter(itemsAdapter);*/
+        mListView = (ListView) findViewById(R.id.listView);
+        arrayList = new ArrayList<>(Arrays.asList(items));
+        adapter = new ArrayAdapter<String>(getApplicationContext(),android.R.layout.simple_spinner_item,arrayList);
 
-
-        // Construct the data source
-        ArrayList<String> Values = new ArrayList<String>();
-        // Create the adapter to convert the array to views
-
+        // on assigne l'adapter à notre list
+        mListView.setAdapter(adapter);
 
         Button boutonAddList = (Button) findViewById(R.id.AddListbutton);
-
-        assert boutonAddList != null;
         boutonAddList.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -53,9 +51,6 @@ public class Statistiques extends Activity {
                 EditText value = (EditText) findViewById(R.id.edTxtValue);
 
                 //conversion en string
-
-                assert value != null;
-
                 String txtvalue = value.getText().toString();
 
                 if(txtvalue.matches("")){
@@ -69,28 +64,8 @@ public class Statistiques extends Activity {
                 }
                 else
                 {
-
-                    /*ArrayAdapter myAdapt= (ArrayAdapter)mListView.getAdapter();
-                    myAdapt.notifyDataSetChanged();
-                    myAdapt.add(txtvalue);*/
-
-                    //String newData = new String(txtValue);
-
-                    //mListView = (ListView) findViewById(R.id.listView);
-
-                    mListView = (ListView) findViewById(R.id.listView);
-
-
-                    //List<int> nombre = AjouterNombres();
-
-                    //NombresAdapter adapter = new NombresAdapter(MainActivity.this, int);
-                    //mListView.setAdapter(adapter);
-
-                   /* List<int> nombre = AjouterNombres();
-
-                    NombresAdapter adapter = new NombresAdapter(MainActivity.this, int);
-                    mListView.setAdapter(adapter);
-                    */
+                    //String newNumber = txtvalue;
+                    adapter.add(txtvalue);
 
                 }
             }

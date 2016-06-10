@@ -1,9 +1,10 @@
 package project.informathique;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class degrestrois extends AppCompatActivity {
+public class degrestrois extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,5 +1,6 @@
 package project.informathique;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.print.PrintAttributes;
@@ -15,7 +16,7 @@ import android.widget.Toast;
 import org.w3c.dom.Text;
 
 
-public class matrices extends AppCompatActivity {
+public class matrices extends Activity {
     int i,j,k ,valligneA, valcolonneA;
     int val_A[][] = new int[5][5];
     int val_B[][] = new int[5][5];

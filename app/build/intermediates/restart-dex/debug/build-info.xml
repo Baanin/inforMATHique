@@ -4,84 +4,39 @@
     api-level="23"
     density="420dpi"
     format="7"
-<<<<<<< HEAD
-    timestamp="1465477169983401000"
-    verifier="COMPATIBLE" >
+    timestamp="1465549490886386000" >
 
     <task
         name="javac"
-        duration="335" />
-    <task
-        name="instant-run-dex"
-        duration="477" />
-    <task
-        name="instant-run-transform"
-        duration="25" />
-=======
-    timestamp="783564839681005"
-    verifier="CLASS_ADDED" >
-
-    <task
-        name="javac"
-        duration="219" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="17" />
->>>>>>> origin/master
+        duration="0" />
     <task
         name="verifier"
-        duration="9" />
+        duration="0" />
 
     <artifact
-<<<<<<< HEAD
-        location="/Users/Louis/informathique/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/Louis/informathique/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
 
-    <build timestamp="1465477040723264000" >
-=======
-        location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-        type="DEX" />
-
-    <build timestamp="780923152558425" >
->>>>>>> origin/master
+    <build timestamp="1465549064267028000" >
         <artifact
             location="/Users/Louis/informathique/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build
-<<<<<<< HEAD
-        timestamp="1465477169983401000"
-        verifier="COMPATIBLE" >
+    <build timestamp="1465549252703018000" >
         <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
-=======
-        timestamp="783054011574139"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
             type="DEX" />
     </build>
-    <build
-        timestamp="783465783266106"
-        verifier="FIELD_TYPE_CHANGE" >
+    <build timestamp="1465549490886386000" >
         <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\res\resources-debug.ap_"
+            location="/Users/Louis/informathique/app/build/intermediates/res/resources-debug.ap_"
             type="RESOURCES" />
-    </build>
-    <build
-        timestamp="783564839681005"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
->>>>>>> origin/master
     </build>
 
 </instant-run>
