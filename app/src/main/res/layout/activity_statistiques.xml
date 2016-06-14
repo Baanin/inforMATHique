@@ -47,16 +47,55 @@
         android:layout_below="@+id/AddListbutton"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:scrollbars="vertical"
         android:choiceMode="none"
         tools:listitem="@android:layout/simple_list_item_1"
-        android:background="@color/black_overlay"
-        android:layout_above="@+id/btnCalculMoyenne" />
+        android:background="@color/black_overlay" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Moyenne"
         android:id="@+id/btnCalculMoyenne"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/listView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Resultat"
+        android:layout_below="@+id/btnCalculMoyenne"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/btnCalculMoyenne"
+        android:layout_alignRight="@+id/listView"
+        android:layout_alignEnd="@+id/listView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vider la liste"
+        android:id="@+id/EmptyList"
+        android:layout_below="@+id/AddListbutton"
+        android:layout_alignLeft="@+id/AddListbutton"
+        android:layout_alignStart="@+id/AddListbutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mediane"
+        android:id="@+id/btnCalculMediane"
+        android:layout_alignTop="@+id/btnCalculMode"
+        android:layout_toRightOf="@+id/btnCalculMoyenne"
+        android:layout_toEndOf="@+id/btnCalculMoyenne" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mode"
+        android:id="@+id/btnCalculMode"
+        android:layout_above="@+id/Resultat"
+        android:layout_toRightOf="@+id/btnCalculMediane"
+        android:layout_toEndOf="@+id/btnCalculMediane" />
 </RelativeLayout>
