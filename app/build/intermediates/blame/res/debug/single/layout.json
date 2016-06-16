@@ -72,6 +72,10 @@
         "source": "/Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/layout/notification_media_action.xml"
     },
     {
+        "merged": "/Users/Louis/informathique/app/build/intermediates/res/merged/debug/layout/activity_probabilites.xml",
+        "source": "/Users/Louis/informathique/app/src/main/res/layout/activity_probabilites.xml"
+    },
+    {
         "merged": "/Users/Louis/informathique/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
         "source": "/Users/Louis/informathique/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/res/layout/design_menu_item_action_area.xml"
     },
@@ -98,6 +102,10 @@
     {
         "merged": "/Users/Louis/informathique/app/build/intermediates/res/merged/debug/layout/activity_equations.xml",
         "source": "/Users/Louis/informathique/app/src/main/res/layout/activity_equations.xml"
+    },
+    {
+        "merged": "/Users/Louis/informathique/app/build/intermediates/res/merged/debug/layout/activity_loi_uniforme.xml",
+        "source": "/Users/Louis/informathique/app/src/main/res/layout/activity_loi_uniforme.xml"
     },
     {
         "merged": "/Users/Louis/informathique/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",

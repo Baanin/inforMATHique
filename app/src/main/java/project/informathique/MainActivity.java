@@ -47,6 +47,17 @@ public class MainActivity extends Activity {
             }
         });
 
+        Button probabilites = (Button) findViewById(R.id.Probabutton);
+        probabilites.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent (MainActivity.this, Probabilites.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 

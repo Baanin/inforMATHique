@@ -165,7 +165,7 @@ public class Statistiques extends AppCompatActivity {
         Mode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                for (int i = 0; i < adapter.getCount(); i++) {
+                /*for (int i = 0; i < adapter.getCount(); i++) {
                     if (adapter.getCount() > 0) {
                         //Collections.sort(arrayList,new Comparator<String>(){
 
@@ -177,7 +177,7 @@ public class Statistiques extends AppCompatActivity {
                         int duration = Toast.LENGTH_SHORT;
                         Toast.makeText(context, text, duration).show();
                     }
-                }
+                }*/
             }
         });
 

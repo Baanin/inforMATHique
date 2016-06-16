@@ -19,7 +19,9 @@
         <activity android:name=".Equations" />
         <activity android:name=".matrices" />
         <activity android:name=".degrestrois" />
-        <activity android:name=".Statistiques"></activity>
+        <activity android:name=".Statistiques" />
+        <activity android:name=".Probabilites" />
+        <activity android:name=".LoiUniforme"></activity>
     </application>
 
 </manifest>
