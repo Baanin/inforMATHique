@@ -41,15 +41,11 @@ public class SecDegreActivity extends Activity {
                 deltaneg.setVisibility(View.INVISIBLE);
                 x1.setVisibility(View.INVISIBLE);
                 x2.setVisibility(View.INVISIBLE);
-
                 //récupération des EditTxt a,b,c
                 EditText a = (EditText) findViewById(R.id.editTexta);
                 EditText b = (EditText) findViewById(R.id.editTextb);
                 EditText c = (EditText) findViewById(R.id.editTextc);
-
                 System.out.println("Le message est " + a.getText().length());
-
-
                 //conversion en string
                 String txta = a.getText().toString();
                 String txtb = b.getText().toString();
@@ -71,10 +67,8 @@ public class SecDegreActivity extends Activity {
                     valb = Double.parseDouble(txtb);
                     valc = Double.parseDouble(txtc);
                     TextView delta = (TextView) findViewById(R.id.delta);
-
                     //calcul delta
                     valdelta = (valb * valb)-(4*vala*valc);
-
                     //conversion en string
                     txtdelta = String.valueOf(valdelta);
                     //ajout dans le text delta

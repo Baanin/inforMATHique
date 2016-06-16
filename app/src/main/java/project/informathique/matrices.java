@@ -59,7 +59,6 @@ public class matrices extends Activity {
                 sai_C[i][j] = (TextView) findViewById((R.id.TextViewC00)+k);
                 sai_C[i][j].setVisibility(View.GONE);
                 sai_C[i][j].setInputType(InputType.TYPE_CLASS_NUMBER);
-
                 //Masquer les boutons d'opérations
                 boutonadd.setVisibility(View.INVISIBLE);
                 boutonsous.setVisibility(View.INVISIBLE);
@@ -68,7 +67,6 @@ public class matrices extends Activity {
                 boutoninv.setVisibility(View.INVISIBLE);
             }
         }
-
         Button boutongen = (Button) findViewById(R.id.genA);
         assert boutongen != null;
         boutongen.setOnClickListener(new View.OnClickListener()
@@ -93,7 +91,6 @@ public class matrices extends Activity {
                     //conversion en string
                     txtligneA = editligne.getText().toString();
                     txtcolonneA = editcolonne.getText().toString();
-
                 //vérification si ligne et colonne ne sont pas vides
                 if (txtcolonneA.matches("")|| txtligneA.matches("")) {
                     Context context = getApplicationContext();
@@ -114,7 +111,6 @@ public class matrices extends Activity {
                                 sai_B[i][j].setVisibility(View.VISIBLE);
                             }
                         }
-
                         boutonadd.setVisibility(View.VISIBLE);
                         boutonsous.setVisibility(View.VISIBLE);
                         boutonvec.setVisibility(View.VISIBLE);
@@ -135,7 +131,6 @@ public class matrices extends Activity {
 
             @Override
             public void onClick(View v) {
-
                 for (i = 0; i < valligneA; i++) {
                     for (j = 0; j < valcolonneA; j++) {
                     //conversion des valeurs de A et B en int pour calculs
@@ -166,7 +161,6 @@ public class matrices extends Activity {
 
             @Override
             public void onClick(View v) {
-
                 for (i = 0; i < valligneA; i++) {
                     for (j = 0; j < valcolonneA; j++) {
                         //conversion des valeurs de A et B en int pour calculs

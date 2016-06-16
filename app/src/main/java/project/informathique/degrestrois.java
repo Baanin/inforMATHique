@@ -15,7 +15,6 @@ import java.util.Scanner;
 
 public class degrestrois extends Activity {
 
-    boolean continuation=true;
     Scanner scan = new Scanner(System.in);
     double gDelta,x,y,z,im,re,u,V,p,q,m,n,theta,k,vala,valb,valc,vald;
     char verif;
@@ -25,24 +24,18 @@ public class degrestrois extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_degrestrois);
 
-        Button boutoncalcul = (Button) findViewById(R.id.buttonCalc);
+        Button boutoncalcul = (Button) findViewById(R.id.button2);
         boutoncalcul.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 //Declaration des textView en masqués
-
-                do {
-
                     try {
-
-
                         //récupération des EditTxt a,b,c,d
                         EditText a = (EditText) findViewById(R.id.editTexta);
                         EditText b = (EditText) findViewById(R.id.editTextb);
                         EditText c = (EditText) findViewById(R.id.editTextc);
                         EditText d = (EditText) findViewById(R.id.editTextd);
-
                         //conversion en string
                         String txta = a.getText().toString();
                         String txtb = b.getText().toString();
@@ -136,18 +129,8 @@ public class degrestrois extends Activity {
                         Context context = getApplicationContext();
                         CharSequence text = "Vous devez introduire un nombre";
                         int duration = Toast.LENGTH_SHORT;
-
                         Toast.makeText(context, text, duration).show();
-
                     }
-
-                    scan = new Scanner(System.in);
-                    verif=scan.next().charAt(0);
-                    if (verif != 'o' && verif != 'O' && verif !='0')
-                        continuation = false;
-
-
-                } while (continuation);
             }
         });
     }
