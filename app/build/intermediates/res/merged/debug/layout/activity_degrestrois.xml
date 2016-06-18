@@ -21,7 +21,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned"
         android:ems="10"
         android:id="@+id/editTexta"
         android:layout_centerHorizontal="true"
@@ -30,7 +30,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned"
         android:ems="10"
         android:id="@+id/editTextb"
         android:layout_below="@+id/editTexta"
@@ -39,20 +39,11 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
+        android:inputType="numberSigned"
         android:ems="10"
         android:id="@+id/editTextc"
         android:layout_below="@+id/editTextb"
         android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="a = "
-        android:id="@+id/textView9"
-        android:layout_above="@+id/editTextb"
-        android:layout_toRightOf="@+id/textView15"
-        android:layout_toEndOf="@+id/textView15" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -84,30 +75,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Delta négatif, Résolution impossible dans R"
-        android:id="@+id/textView13"
-        android:visibility="invisible"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/textView15"
-        android:layout_alignParentLeft="true" />
+        android:id="@+id/txtViewRacineReelle"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="62dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView14"
-        android:visibility="invisible"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/txtViewRacineComplexe"
+        android:layout_below="@+id/txtViewRacineReelle"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="79dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView15"
-        android:layout_alignParentStart="true"
-        android:layout_above="@+id/textView14"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignRight="@+id/txtViewRacineReelle"
+        android:layout_alignEnd="@+id/txtViewRacineReelle" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -121,7 +105,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="numberSigned"
         android:ems="10"
         android:id="@+id/editTextd"
         android:layout_below="@+id/editTextc"
@@ -135,4 +119,13 @@
         android:onClick="calculdelta"
         android:layout_below="@+id/textView12"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a = "
+        android:id="@+id/textView13"
+        android:layout_above="@+id/editTextb"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

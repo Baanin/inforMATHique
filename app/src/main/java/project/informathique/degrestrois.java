@@ -19,6 +19,11 @@ public class degrestrois extends Activity {
     double gDelta,x,y,z,im,re,u,V,p,q,m,n,theta,k,vala,valb,valc,vald;
     char verif;
 
+    static public Double arrondir(Double value, int n) {
+        double r = (Math.round(value.doubleValue() * Math.pow(10, n))) / (Math.pow(10, n));
+        return new Double(r);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +47,14 @@ public class degrestrois extends Activity {
                         String txtc = c.getText().toString();
                         String txtd = c.getText().toString();
 
+                        TextView RacineReelle = (TextView) findViewById(R.id.txtViewRacineReelle);
+                        TextView RacineComplexe = (TextView) findViewById(R.id.txtViewRacineComplexe);
+
                         if (txta.matches("") || txtb.matches("") || txtc.matches("") || txtd.matches("")) {
+
+                            RacineReelle.setText("");
+                            RacineComplexe.setText("");
+
                             Context context = getApplicationContext();
 
                             CharSequence text = "Une ou plusieurs valeurs n'ont pas été saisies !";
@@ -58,6 +70,7 @@ public class degrestrois extends Activity {
                             valb = Double.parseDouble(txtb);
                             valc = Double.parseDouble(txtc);
                             vald = Double.parseDouble(txtd);
+
 
                             p = (valc / vala) - (Math.pow(valb, 2.0) / (3 * Math.pow(vala, 2.0)));
                             q = ((2 * Math.pow(valb, 3.0)) / (27 * Math.pow(vala, 3.0))) - ((valb * valc) / (3 * Math.pow(vala, 2.0))) + (vald / vala);
@@ -75,19 +88,25 @@ public class degrestrois extends Activity {
                                 re = (-x) / 2;
                                 im = (Math.sqrt(3) / 2) * (u - V);
                                 re += (-valb) / (3 * vala);
-                                System.out.println("1 racine reelle:\n    x = " + x + "");
-                                System.out.println("2 racines complexes:\n" +
-                                        "    y = " + re + "-" + im + "i , z  = " + re + "+" + im + "i");
+
+                                x = arrondir(x,3);
+                                re = arrondir(re,5);
+                                im = arrondir(im,5);
+
+                                RacineReelle.setText("1 racine reelle :\n x = " + x);
+                                RacineComplexe.setText("2 racines complexes:\n" +
+                                        " y = " + re + " - " + im + "i ,\n z  = " + re + " + " + im + "i");
 
                             } else if (gDelta == 0) {
 
                                 if (valb == 0 & valc == 0 && vald == 0) {
-                                    Context context = getApplicationContext();
+                                    /*Context context = getApplicationContext();
                                     CharSequence text = "1 racine reelle de multiplicite 3:\n" + " x = y = z = 0 ";
                                     int duration = Toast.LENGTH_SHORT;
 
                                     Toast.makeText(context, text, duration).show();
-                                    //System.out.println("1 racine reelle de multiplicite 3:\n    x = y = z = 0 ");
+                                    System.out.println("1 racine reelle de multiplicite 3:\n    x = y = z = 0 ");*/
+                                    RacineReelle.setText("1 racine reelle de multiplicite 3:\n" + " x = y = z = 0 ");
                                 }
                                 else
                                 {
@@ -96,8 +115,11 @@ public class degrestrois extends Activity {
                                     y = (-3 * q) / (2 * p);
                                     y += (-valb) / (3 * vala);
 
-                                    System.out.println("1 racine reelle simple:\n    x = " + x + "");
-                                    System.out.println("1 racine reelle double:\n    y = z = " + y + "");
+                                    x = arrondir(x,3);
+                                    y = arrondir(y,3);
+
+                                    RacineReelle.setText("1 racine reelle simple:\n    x = " + x + "");
+                                    RacineReelle.setText("1 racine reelle double:\n    y = z = " + y + "");
                                 }
 
                             }
@@ -114,8 +136,11 @@ public class degrestrois extends Activity {
                                 x += (-valb) / (3 * vala);
                                 y += (-valb) / (3 * vala);
                                 z += (-valb) / (3 * vala);
-                                System.out.println("3 racines reelles:\n    x = " + x + " , y = " + y + " , z = " + z + "");
 
+                                x = arrondir(x,3);
+                                y = arrondir(y,3);
+                                z = arrondir(z,3);
+                                RacineReelle.setText("3 racines reelles:\n x = " + x + " ,\n y = " + y + " ,\n z = " + z + "");
 
                             }
 
