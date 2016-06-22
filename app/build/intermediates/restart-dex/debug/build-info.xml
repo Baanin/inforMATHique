@@ -5,6 +5,7 @@
     density="420dpi"
     format="7"
 <<<<<<< HEAD
+<<<<<<< HEAD
     timestamp="435260772670617"
     verifier="COMPATIBLE" >
 
@@ -18,13 +19,24 @@
         name="javac"
         duration="86" />
 >>>>>>> origin/master
+=======
+    timestamp="1466241271348339000" >
+
+    <task
+        name="javac"
+        duration="86" />
+>>>>>>> origin/master
     <task
         name="instant-run-dex"
         duration="480" />
     <task
         name="instant-run-transform"
 <<<<<<< HEAD
+<<<<<<< HEAD
         duration="16" />
+=======
+        duration="23" />
+>>>>>>> origin/master
 =======
         duration="23" />
 >>>>>>> origin/master
@@ -34,21 +46,28 @@
 
     <artifact
 <<<<<<< HEAD
+<<<<<<< HEAD
         location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\reload-dex\debug\classes.dex"
         type="RELOAD_DEX" />
 
     <build timestamp="431206331401435" >
 =======
+=======
+>>>>>>> origin/master
         location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
         type="DEX" />
 
     <build timestamp="1466234593191530000" >
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
         <artifact
             location="/Users/Louis/informathique/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
+<<<<<<< HEAD
 <<<<<<< HEAD
         timestamp="431303303089285"
         verifier="COMPATIBLE" >
@@ -91,6 +110,8 @@
             location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\reload-dex\debug\classes.dex"
             type="RELOAD_DEX" />
 =======
+=======
+>>>>>>> origin/master
         timestamp="1466237706156354000"
         verifier="R_CLASS_CHANGE" >
         <artifact
