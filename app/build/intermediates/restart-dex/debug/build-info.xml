@@ -4,184 +4,29 @@
     api-level="23"
     density="420dpi"
     format="7"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    timestamp="435260772670617"
-    verifier="COMPATIBLE" >
-||||||| merged common ancestors
-    timestamp="1428964222208126" >
-=======
-    timestamp="1466241271348339000" >
->>>>>>> origin/master
+    timestamp="438540693249866" >
 
     <task
         name="javac"
-<<<<<<< HEAD
-        duration="143" />
-=======
-    timestamp="1466241271348339000" >
-
-    <task
-        name="javac"
-        duration="86" />
->>>>>>> origin/master
-=======
-    timestamp="1466241271348339000" >
-
-    <task
-        name="javac"
-        duration="86" />
->>>>>>> origin/master
-||||||| merged common ancestors
-        duration="0" />
-=======
-        duration="86" />
->>>>>>> origin/master
+        duration="403" />
     <task
         name="instant-run-dex"
-        duration="480" />
+        duration="0" />
     <task
         name="instant-run-transform"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        duration="16" />
-=======
-        duration="23" />
->>>>>>> origin/master
-=======
-        duration="23" />
->>>>>>> origin/master
-||||||| merged common ancestors
-        duration="0" />
-=======
-        duration="23" />
->>>>>>> origin/master
+        duration="251" />
     <task
         name="verifier"
-        duration="2" />
+        duration="85" />
 
     <artifact
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="431206331401435" >
-=======
-=======
->>>>>>> origin/master
-        location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-||||||| merged common ancestors
-        location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-=======
-        location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
->>>>>>> origin/master
-        type="DEX" />
-
-<<<<<<< HEAD
-    <build timestamp="1466234593191530000" >
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> origin/master
-||||||| merged common ancestors
-    <build timestamp="1428150955718816" >
-=======
-    <build timestamp="1466234593191530000" >
->>>>>>> origin/master
+    <build timestamp="438540693249866" >
         <artifact
-            location="/Users/Louis/informathique/app/build/outputs/apk/app-debug.apk"
+            location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-<<<<<<< HEAD
-    <build
-<<<<<<< HEAD
-<<<<<<< HEAD
-        timestamp="431303303089285"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\431303303089285\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="431331057402698"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\431331057402698\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="431355960387540"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\431355960387540\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="431368245678786"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\431368245678786\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="435247024910767"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\builds\debug\435247024910767\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="435260772670617"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
-=======
-=======
->>>>>>> origin/master
-        timestamp="1466237706156354000"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="1466240827250297000" >
-        <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="1466241271348339000" >
-||||||| merged common ancestors
-    <build timestamp="1428964222208126" >
-=======
-    <build
-        timestamp="1466237706156354000"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="1466240827250297000" >
-        <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="1466241271348339000" >
->>>>>>> origin/master
-        <artifact
-            location="/Users/Louis/informathique/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
->>>>>>> origin/master
     </build>
 
 </instant-run>

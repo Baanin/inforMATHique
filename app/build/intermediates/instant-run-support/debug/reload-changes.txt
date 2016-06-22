@@ -1,3 +1,0 @@
-CHANGED,/Users/Louis/informathique/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/Louis/informathique/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/project/informathique/degrestrois$1$override.class
-CHANGED,/Users/Louis/informathique/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/project/informathique/degrestrois$override.class

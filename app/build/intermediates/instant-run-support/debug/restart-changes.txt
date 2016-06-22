@@ -1,2 +1,0 @@
-CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\project\informathique\SecDegreActivity$1.class
-CHANGED,C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\instantRun\debug\folders\1\5\main\project\informathique\SecDegreActivity.class

@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <items version="2" >
 
     <item
@@ -50,7 +47,7 @@
         jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="ebe7b52f17f0bbfcf61a4d65a2fcb1af866683a1">
+        sha1="681d571487ec32361f8569e4ec727551bd2516cc">
         <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4a933fb221b82e05b1513837c8453b8470811ff6\classes.dex" />
     </item>
     <item
@@ -71,20 +68,8 @@
         jar="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="e87b8a96982a7dab0587469da79f040efd0942f9">
+        sha1="24dd22471bc3a351d392253d5cb194aea2d99ae1">
         <dex dex="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_07a954359fb5f3954ae38f35fe90b0eae616bbbf\classes.dex" />
     </item>
 
 </items>
-=======
-<items version="2" />
->>>>>>> origin/master
-=======
-<items version="2" />
->>>>>>> origin/master
-||||||| merged common ancestors
-<items version="2" />
-
-=======
-<items version="2" />
->>>>>>> origin/master

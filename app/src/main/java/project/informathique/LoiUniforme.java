@@ -21,6 +21,7 @@ public class LoiUniforme extends AppCompatActivity {
         final TextView Result = (TextView)findViewById(R.id.Resultat);
 
         Button CalculdeF = (Button) findViewById(R.id.btnCalculdeF);
+        assert CalculdeF != null;
         CalculdeF.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
