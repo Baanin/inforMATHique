@@ -77,8 +77,15 @@ public class SecDegreActivity extends Activity {
                     //Calcul X
                     //Si delta neg
                     if (valdelta < 0){
-
-                        deltaneg.setVisibility(View.VISIBLE);
+                        valdelta=valdelta*-1;
+                        valx1 = (-valb-racinedelta)/(2*vala);
+                        valx2 = (-valb+racinedelta)/(2*vala);
+                        x1.setVisibility(View.VISIBLE);
+                        x2.setVisibility(View.VISIBLE);
+                        x1.setText("x1 = -" + valb + " -i(racine(" + valdelta + "))/" + 2*vala);                        x1.setVisibility(View.VISIBLE);
+                        x2.setText("x2 = -" + valb + " +i(racine(" + valdelta + "))/" + 2*vala);
+                        //ECRIRE "x2= (-",b,"+(i(racine",delta,")/",2*a
+                       // deltaneg.setVisibility(View.VISIBLE);
                     }
                     //Si delta nul
                     else if (valdelta == 0){
