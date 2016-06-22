@@ -52,6 +52,7 @@ public class LoiUniforme extends AppCompatActivity {
                     valx = Double.parseDouble(txtx);
 
                     f = 1 / (valb - vala);
+                    assert Result != null;
                     Result.setText("f(x) =" + f);
 
                 }
@@ -59,6 +60,7 @@ public class LoiUniforme extends AppCompatActivity {
         });
 
         Button CalculEsperance = (Button) findViewById(R.id.btnCalcEsperance);
+        assert CalculEsperance != null;
         CalculEsperance.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
@@ -85,6 +87,7 @@ public class LoiUniforme extends AppCompatActivity {
                     vala = Double.parseDouble(txta);
                     valb = Double.parseDouble(txtb);
                     Esp = (vala + valb) / 2;
+                    assert Result != null;
                     Result.setText("Esp =" + Esp);
                 }
             }

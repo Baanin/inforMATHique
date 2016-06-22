@@ -290,6 +290,7 @@
     <string name="title_activity_sec_degre">SecDegreActivity</string>
     <string name="title_activity_ters_degre">TersDegreActivity</string>
     <string name="title_activity_test">Test</string>
+    <string name="valeur_de_b">Valeur de b :</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
