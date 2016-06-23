@@ -150,7 +150,7 @@ public class degrestrois extends Activity {
 
                     catch (InputMismatchException e)
                     {
-                        //System.out.println("Vous devez introduire un nombre");
+
                         Context context = getApplicationContext();
                         CharSequence text = "Vous devez introduire un nombre";
                         int duration = Toast.LENGTH_SHORT;

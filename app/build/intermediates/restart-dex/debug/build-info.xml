@@ -4,39 +4,29 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="441250157026472" >
+    timestamp="514863460181445" >
 
     <task
         name="javac"
-        duration="361" />
+        duration="3892" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="2646" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1638" />
 
     <artifact
-        location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
+        location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="440861124179008" >
+    <build timestamp="514863460181445" >
         <artifact
             location="C:\Users\benca\Documents\GitHub\informathique\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="441182509317366" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_7\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="441250157026472" >
-        <artifact
-            location="C:\Users\benca\Documents\GitHub\informathique\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
     </build>
 
 </instant-run>
