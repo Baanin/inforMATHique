@@ -89,11 +89,13 @@ public class Statistiques extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+                total = 0;
 
                 for (int i = 0; i < adapter.getCount(); i++)
                 {
                     if(adapter.getCount() > 0 )
                     {
+
                         nombre = Float.parseFloat(adapter.getItem(i));
                         total = total + nombre;
                     }
@@ -118,6 +120,7 @@ public class Statistiques extends AppCompatActivity {
                 else
                 {
                     float moyenne = total / adapter.getCount();
+                    Result.setText("Moyenne :");
                     Result.setText("Moyenne :" + moyenne);
                     total = 0;
                 }
@@ -129,6 +132,7 @@ public class Statistiques extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
+                total = 0;
                 for (int i = 0; i < adapter.getCount(); i++)
                 {
                     if(adapter.getCount() > 0 )
@@ -161,25 +165,6 @@ public class Statistiques extends AppCompatActivity {
             }
         });
 
-        Button Mode = (Button) findViewById(R.id.btnCalculMode);
-        Mode.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                /*for (int i = 0; i < adapter.getCount(); i++) {
-                    if (adapter.getCount() > 0) {
-                        //Collections.sort(arrayList,new Comparator<String>(){
-
-                        };
-
-                    } else {
-                        Context context = getApplicationContext();
-                        CharSequence text = "Il n'y a aucune valeur dans la liste, le calcul est impossible !";
-                        int duration = Toast.LENGTH_SHORT;
-                        Toast.makeText(context, text, duration).show();
-                    }
-                }*/
-            }
-        });
 
 
     }

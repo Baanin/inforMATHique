@@ -13,6 +13,7 @@ public class Equations extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_equations);
+        //bouton equation second degré
         Button equations2nddegre = (Button) findViewById(R.id.EquSeqDegrebutton);
         equations2nddegre.setOnClickListener(new View.OnClickListener()
         {
@@ -23,6 +24,7 @@ public class Equations extends Activity {
                 startActivity(intent);
             }
         });
+        //bouton equation 3eme degré
         Button equationsdegrestrois = (Button) findViewById(R.id.Equ3emedegrebutton);
         equationsdegrestrois.setOnClickListener(new View.OnClickListener()
         {

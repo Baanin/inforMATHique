@@ -40,9 +40,6 @@ public class matrices extends Activity {
         final TextView bequal = (TextView) findViewById(R.id.bequal);
         final TextView cequal = (TextView) findViewById(R.id.cequal);
         final Button boutonsous = (Button) findViewById(R.id.soustraction);
-        final Button boutoninv  = (Button) findViewById(R.id.inverse);
-        final Button boutonvec  = (Button) findViewById(R.id.vecteurs);
-        final Button boutonval  = (Button) findViewById(R.id.valeurs);
         final Button boutonadd  = (Button) findViewById(R.id.addition);
 
         //Initialisation des matrices saisies
@@ -62,9 +59,6 @@ public class matrices extends Activity {
                 //Masquer les boutons d'opérations
                 boutonadd.setVisibility(View.INVISIBLE);
                 boutonsous.setVisibility(View.INVISIBLE);
-                boutonvec.setVisibility(View.INVISIBLE);
-                boutonval.setVisibility(View.INVISIBLE);
-                boutoninv.setVisibility(View.INVISIBLE);
             }
         }
         Button boutongen = (Button) findViewById(R.id.genA);
@@ -113,9 +107,7 @@ public class matrices extends Activity {
                         }
                         boutonadd.setVisibility(View.VISIBLE);
                         boutonsous.setVisibility(View.VISIBLE);
-                        boutonvec.setVisibility(View.VISIBLE);
-                        boutonval.setVisibility(View.VISIBLE);
-                        boutoninv.setVisibility(View.VISIBLE);
+
                     }
                     else {
                         Context context = getApplicationContext();

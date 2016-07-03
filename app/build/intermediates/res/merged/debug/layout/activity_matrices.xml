@@ -977,36 +977,5 @@
         android:layout_below="@+id/addition"
         android:layout_alignRight="@+id/colonne" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Inverse d&apos;une matrice carrée"
-        android:id="@+id/inverse"
-        android:textSize="12dp"
-        android:layout_below="@+id/soustraction"
-        android:layout_alignRight="@+id/colonne"
-        android:layout_alignLeft="@+id/soustraction"
-        android:layout_alignStart="@+id/soustraction" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Calcul de valeurs"
-        android:id="@+id/valeurs"
-        android:textSize="12dp"
-        android:layout_below="@+id/inverse"
-        android:layout_alignRight="@+id/colonne" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="vecteurs propres"
-        android:id="@+id/vecteurs"
-        android:layout_below="@+id/valeurs"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignLeft="@+id/inverse"
-        android:layout_alignStart="@+id/inverse"
-        android:textSize="12dp" />
 
 </RelativeLayout>

@@ -86,16 +86,8 @@
         android:layout_height="wrap_content"
         android:text="Mediane"
         android:id="@+id/btnCalculMediane"
-        android:layout_alignTop="@+id/btnCalculMode"
+        android:layout_alignTop="@+id/btnCalculMoyenne"
         android:layout_toRightOf="@+id/btnCalculMoyenne"
         android:layout_toEndOf="@+id/btnCalculMoyenne" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mode"
-        android:id="@+id/btnCalculMode"
-        android:layout_above="@+id/Resultat"
-        android:layout_toRightOf="@+id/btnCalculMediane"
-        android:layout_toEndOf="@+id/btnCalculMediane" />
 </RelativeLayout>
